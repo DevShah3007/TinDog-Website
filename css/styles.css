@@ -1,0 +1,217 @@
+/* HTML Tags */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Container */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Heading */
+.main-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+
+/* Title-section */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title-Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-text {
+  font-size: 1.5rem;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-family: "Indie Flower";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.5%;
+}
+
+
+/* Press-Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 1.5% 1.5% 3%;
+}
+
+
+/* Pricing-section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.price-card:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-plan {
+  font-size: 2rem;
+}
+
+.sign-up-btn {
+  margin-top: 10px;
+}
+
+.sign-up-btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.log-in {
+  font-size: 1.5rem;
+}
+
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15% 5%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/* Footer Scetion */
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+}
+
+.footer-icon{
+  margin: 0 1% 2%;
+}
+
+
+/* Media-queries */
+@media (max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  .nav-item {
+    text-align: right;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    margin-top: 10px;
+  }
+}
